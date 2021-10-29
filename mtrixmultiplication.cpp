@@ -1,8 +1,8 @@
 #include<stdio.h>
-#define MAX 50
+#define max 100
 int main()
 {
-	int a[MAX][MAX],  b[MAX][MAX], product[MAX][MAX];
+	int a[max][max],  b[max][max], product[max][max];
 	int arows, acolumns,brows, bcolumns;
 	int i,j,k;
 	int sum =0;
